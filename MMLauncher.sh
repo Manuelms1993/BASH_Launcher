@@ -27,7 +27,7 @@ while getopts "t:hf:c:r:m:p:" o; do
     echo "-f <File path> --> File path with commands to execute"
     echo "    Example: "
     echo "      sleep 10"
-    echo "      nohup sh lanzador.sh"
+    echo "      sh launcherProcess.sh"
     echo "-h Help"
     echo "-m <\"mail\"> mail to receive notifications (Using mailx). EX: \"manuel@email.com\"."
     echo "-p <PID> PID for active process"
